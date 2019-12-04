@@ -22,5 +22,8 @@
   },
   "bugs": {
     "url": "https://github.com/koba04/lerna-sandbox/issues"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
   }
 }
