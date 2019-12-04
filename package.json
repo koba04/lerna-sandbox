@@ -1,0 +1,23 @@
+{
+  "name": "lerna-sandbox",
+  "version": "1.0.0",
+  "description": "A sandbox repository for Lerna",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koba04/lerna-sandbox.git"
+  },
+  "keywords": [],
+  "author": "koba04",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koba04/lerna-sandbox/issues"
+  },
+  "homepage": "https://github.com/koba04/lerna-sandbox#readme",
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}
