@@ -1,0 +1,26 @@
+{
+  "name": "package-b",
+  "version": "0.1.0",
+  "description": "this is package-b",
+  "author": "Toru Kobayashi <koba0004@gmail.com>",
+  "homepage": "https://github.com/koba04/lerna-sandbox/tree/master/packages/package-b#readme",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/koba04/lerna-sandbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/koba04/lerna-sandbox/issues"
+  }
+}
