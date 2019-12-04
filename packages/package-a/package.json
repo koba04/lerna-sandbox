@@ -18,12 +18,14 @@
     "url": "git+ssh://git@github.com/koba04/lerna-sandbox.git"
   },
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/koba04/lerna-sandbox/issues"
   },
   "devDependencies": {
+    "@types/react": "^16.9.14",
     "typescript": "^3.7.3"
   },
   "dependencies": {
