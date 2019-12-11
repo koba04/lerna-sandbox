@@ -3,5 +3,7 @@
 const lernaSandboxPackageA = require('../lib');
 
 describe('@koba04/lerna-sandbox-package-a', () => {
-    it.todo('needs tests');
+    it('should return a', () => {
+      expect(lernaSandboxPackageA()).toBe('a');
+    });
 });
