@@ -1,6 +1,6 @@
 {
   "name": "@koba04/lerna-sandbox-package-a",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "This is lerna-sandbox-pacakge-a",
   "author": "Toru Kobayashi <koba0004@gmail.com>",
   "homepage": "https://github.com/koba04/lerna-sandbox/tree/master/packages/lerna-sandbox-package-a#readme",
