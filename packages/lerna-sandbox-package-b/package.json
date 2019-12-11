@@ -1,9 +1,9 @@
 {
   "name": "@koba04/lerna-sandbox-package-b",
-  "version": "1.1.0",
-  "description": "this is package-b",
+  "version": "1.2.0",
+  "description": "This is lerna-sandbox-package-b",
   "author": "Toru Kobayashi <koba0004@gmail.com>",
-  "homepage": "https://github.com/koba04/lerna-sandbox/tree/master/packages/package-b#readme",
+  "homepage": "https://github.com/koba04/lerna-sandbox/tree/master/packages/lerna-sandbox-package-b#readme",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
@@ -13,6 +13,9 @@
   "files": [
     "lib"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/koba04/lerna-sandbox.git"
@@ -23,10 +26,7 @@
   "bugs": {
     "url": "https://github.com/koba04/lerna-sandbox/issues"
   },
-  "devDependencies": {
-    "typescript": "^3.7.3"
-  },
-  "publishConfig": {
-    "access": "public"
+  "dependencies": {
+    "react": "^16.12.0"
   }
 }

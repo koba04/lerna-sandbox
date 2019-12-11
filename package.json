@@ -1,6 +1,6 @@
 {
   "name": "lerna-sandbox",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "A sandbox repository for Lerna",
   "private": true,
   "scripts": {
@@ -17,7 +17,10 @@
     "url": "https://github.com/koba04/lerna-sandbox/issues"
   },
   "homepage": "https://github.com/koba04/lerna-sandbox#readme",
-  "devDependencies": {
+  "dependencies": {
     "lerna": "^3.19.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.3"
   }
 }
