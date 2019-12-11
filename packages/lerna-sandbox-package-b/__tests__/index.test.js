@@ -1,7 +1,7 @@
 'use strict';
 
-const lernaSandboxPackageB = require('..');
+const lernaSandboxPackageB = require('../lib');
 
 describe('@koba04/lerna-sandbox-package-b', () => {
-    it('needs tests');
+    it.todo('needs tests');
 });
